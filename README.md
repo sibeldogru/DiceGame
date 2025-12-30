@@ -6,12 +6,6 @@ The goal is simple: **Win the roll!**
 
 ---
 
-## 🚀 Live Preview
-
-> (İstersen buraya Netlify / Vercel linkini ekleyebilirsin)
-
----
-
 ## 🧠 Game Rules
 
 - **Player 1** → User  

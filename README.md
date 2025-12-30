@@ -1,16 +1,52 @@
-# React + Vite
+# 🎲 World Series of Dice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet entertaining dice game built with **React**, where the player competes against the computer in a series of single-round dice rolls.
 
-Currently, two official plugins are available:
+The goal is simple: **Win the roll!**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> (İstersen buraya Netlify / Vercel linkini ekleyebilirsin)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Game Rules
+
+- **Player 1** → User  
+- **Player 2** → Computer (PC)
+- Each round:
+  - Both players roll **one dice**
+  - Dice faces animate for ~3 seconds
+  - Final values are compared
+- Possible outcomes:
+  - 🏆 Win
+  - ❌ Lose
+  - 🤝 Draw
+- The button updates dynamically based on the game state
+- Player 1 can change their **username** at any time
+
+---
+
+## ✨ Features
+
+- 🎲 Dice roll animation (3 seconds)
+- 🔁 Single-round gameplay
+- 🧑 Customizable player name
+- 🤖 Computer opponent
+- 🖼️ Image-based dice faces
+- ⚛️ Built with React Hooks
+- 🎨 Clean and minimal UI
+- 📱 Responsive-friendly layout
+
+---
+
+## 🛠️ Technologies Used
+
+- **React**
+- **JavaScript (ES6+)**
+- **React Hooks**
+  - `useState`
+- **CSS**
+- **Vite**
